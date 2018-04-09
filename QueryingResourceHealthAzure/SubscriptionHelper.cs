@@ -17,7 +17,6 @@ namespace QueryingResourceHealthAzure
         const string aadInstance = "https://login.microsoftonline.com/{0}";
 
         private static string resourceHealthFullUrl = string.Format("https://management.azure.com/subscriptions/{0}/providers/Microsoft.ResourceHealth/availabilityStatuses?api-version=2015-01-01", subscriptionId);
-        private static string registerResourceHealthUrl = string.Format("https://management.azure.com/subscriptions/{0}/providers/Microsoft.ResourceHealth/register?api-version=2015-01-01", subscriptionId);
 
         public static async Task<string> GetSubscriptionResources()
         {
