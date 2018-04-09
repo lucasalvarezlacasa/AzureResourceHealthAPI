@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryingResourceHealthAzure", "QueryingResourceHealthAzure\QueryingResourceHealthAzure.csproj", "{105B31A7-BA6F-4D32-B993-305586ED9BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{105B31A7-BA6F-4D32-B993-305586ED9BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105B31A7-BA6F-4D32-B993-305586ED9BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105B31A7-BA6F-4D32-B993-305586ED9BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105B31A7-BA6F-4D32-B993-305586ED9BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {920BC57E-9DD1-4567-B6DF-D460867990B8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lumen21.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = QueryingResourceHealthAzure\\QueryingResourceHealthAzure.csproj
+		SccProjectName1 = QueryingResourceHealthAzure
+		SccLocalPath1 = QueryingResourceHealthAzure
+	EndGlobalSection
+EndGlobal
