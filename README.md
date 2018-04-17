@@ -51,8 +51,8 @@ Read these two links for a deeper understanding:
 
 ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img8.png)
 
-- Give Reader permissions to our application inside of the subscription on where it will be used.
-  - Find the subscription you are using and click on Access control (IAM)
+- Give Reader role to our application inside of the subscription on where it will be used.
+  - Find the subscription you are using and click on Access control (IAM).
   - Click on Add, select Reader as Role and in the Select search box look for the name of the application we registered on step 2.  Select it after that and hit on save.
 
 ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img9.png)
