@@ -37,7 +37,7 @@ Read these two links for a deeper understanding:
 
 ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img6.png)
 
-4) Permissions: none of this will work if we don't give the proper permissions to our application. For achieving it, there are two steps that need to be followed:
+4) **Permissions**: none of this will work if we don't give the proper permissions to our application. For achieving it, there are two steps that need to be followed:
 - Give permissions to Windows Azure Service Management API inside of our app.
   - Click on Azure Active Directory.
   - Click on App registrations.
