@@ -38,7 +38,7 @@ Read these two links for a deeper understanding:
 ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img6.png)
 
 4) **Permissions**: none of this will work if we don't give the proper permissions to our application. For achieving it, there are two steps that need to be followed:
-- Give permissions to Windows Azure Service Management API inside of our app.
+- Let our application have access to Windows Azure Service Management API.
   - Click on Azure Active Directory.
   - Click on App registrations.
   - Find the application that we created on step 2 and select it.
@@ -57,6 +57,6 @@ Read these two links for a deeper understanding:
 
 ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img9.png)
 
-Now you should be good to go, run the application and you will retrieve a detail with the subscription information.
+Now you should be good to go, run the application and you will retrieve a list with the resources of the subscription that are using Resource Health as together with their status.
 
 Thanks everybody!
