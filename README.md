@@ -17,11 +17,11 @@ Before using it, go to **SubscriptionHelper.cs** and complete the necessary vari
 
 // img2
 
-- Now that the application is created, you can automatically obtain the first value that we needed: appId. Just click on it and you will find the value on the top right corner.
+- Now that the application is created, you can automatically obtain the first value that we needed: **appId**. It's located on the top right corner.
 
 // img 3
 
-- Now we need to generate the secret for the application, this is, the appKey. For this, click on Keys and generate a new one. You can select Never Expires as the duration for it. After saving it, you will have one opportunity in order to copy the secret key, since it won't be displayed after that anymore.
+- Now we need to generate the secret key for our application, this is, the **appKey**. For this, click on Keys and generate a new one. You can select Never Expires as the duration for it. After saving, you will have one opportunity in order to copy the secret, since it won't be displayed after that anymore.
 
 // img 4
 
