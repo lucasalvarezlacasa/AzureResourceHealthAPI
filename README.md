@@ -35,6 +35,28 @@ Read these two links for a deeper understanding:
 
 3) **subscriptionId**: this is the subscription you will use for getting the resource information. To find the ID, just type down the name of the subscription in the Azure portal search bar and then click on it. After that, you will get redirected to the subscription detail page where the id can be found.
 
-4) Permissions: 
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img6.png)
+
+4) Permissions: none of this will work if we don't give the proper permissions to our application. For achieving it, there are two steps that need to be followed:
+- Give permissions to Windows Azure Service Management API inside of our app.
+-- Click on Azure Active Directory.
+-- Click on App registrations.
+-- Find the application that we created on step 2 and select it.
+-- Click on Settings and then Required Permissions.
+-- Select an API and look for Windows Azure Service Management API. 
+
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img7.png)
+
+- Select it and then click on the Delegated Permissions checkbox. Confirm the action.
+
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img8.png)
+
+- Give Reader permissions to our application inside of the subscription on where it will be used.
+-- Find the subscription you are using and click on Access control (IAM)
+-- Click on Add, select Reader as Role and in the Select search box look for the name of the application we registered on step 2. Select it after that and hit on save.
+
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img9.png)
+
+Now you should be good to go, run the application and you will retrieve a detail with the subscription information.
 
 Thanks everybody!
