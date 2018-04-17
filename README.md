@@ -8,24 +8,24 @@ Before using it, go to **SubscriptionHelper.cs** and complete the necessary vari
 - Select Properties.
 - Copy the value that appears below Directory ID.
 
-//img1
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img1.png)
 
 2) **appId** and **appKey**: to obtain these values, you will need to register a new application in the Azure portal and give the corresponding permissions to it.
 - Click on Azure Active Directory.
 - Click on App Registrations and then New application registration.
 - Choose a name for your app, select Web app / API as the application type (since this is a console app) and finally complete the Sign-on URL (you can use https://localhost for this one, since it's not relevant at all). Then hit on Create.
 
-// img2
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img2.png)
 
 - Now that the application is created, you can automatically obtain the first value that we needed: **appId**. It's located on the top right corner.
 
-// img 3
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img3.png)
 
 - Now we need to generate the secret key for our application, this is, the **appKey**. For this, click on Keys and generate a new one. You can select Never Expires as the duration for it. After saving, you will have one opportunity in order to copy the secret, since it won't be displayed after that anymore.
 
-// img 4
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img4.png)
 
-// img 5
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img5.png)
 
 
 Read these two links for a deeper understanding: 
