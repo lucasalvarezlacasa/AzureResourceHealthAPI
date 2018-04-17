@@ -8,4 +8,6 @@ Before using it, go to SubscriptionHelper.cs and complete the necessary variable
 
 3) subscriptionId: this is the subscription you will use for getting the resource information. To find the ID, just type down the name of the subscription in the Azure portal search bar and then click on it. After that, you will get redirected to the subscription detail page where the id can be found.
 
+![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/img1.png)
+
 Thanks everybody!
