@@ -38,6 +38,7 @@ Read these two links for a deeper understanding:
 ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img6.png)
 
 4) **Permissions**: none of this will work if we don't give the proper permissions to our application. For achieving it, there are three steps that need to be followed:
+
 - Register Microsoft.ResourceHealth as a resource provider.
  - Look for your subscription and click on it.
  - Then click on Resource providers. You will find a list with the resources that the subscription has already registered.
