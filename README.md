@@ -42,10 +42,10 @@ Read these two links for a deeper understanding:
 - Register Microsoft.ResourceHealth as a resource provider.
  - Look for your subscription and click on it.
  - Then click on Resource providers. You will find a list with the resources that the subscription has already registered.
+ - Look for Microsoft.ResourceHealth on the top search bar. See the status of this resource provider and if it's not registered, register it.
  
  ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img10.png)
  
- - Look for Microsoft.ResourceHealth on the top search bar. See the status of this resource provider and if it's not registered, register it.
  
  ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img11.png)
  
