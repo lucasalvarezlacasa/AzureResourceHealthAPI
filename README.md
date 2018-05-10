@@ -37,7 +37,17 @@ Read these two links for a deeper understanding:
 
 ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img6.png)
 
-4) **Permissions**: none of this will work if we don't give the proper permissions to our application. For achieving it, there are two steps that need to be followed:
+4) **Permissions**: none of this will work if we don't give the proper permissions to our application. For achieving it, there are three steps that need to be followed:
+- Register Microsoft.ResourceHealth as a resource provider.
+ - Look for your subscription and click on it.
+ - Then click on Resource providers. You will find a list with the resources that the subscription has already registered.
+ 
+ ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img10.png)
+ 
+ - Look for Microsoft.ResourceHealth on the top search bar. See the status of this resource provider and if it's not registered, register it.
+ 
+ ![alt text](https://github.com/lucasalvarezlacasa/AzureResourceHealthAPI/blob/master/ReadmeIMGs/img11.png)
+ 
 - Let our application have access to Windows Azure Service Management API.
   - Click on Azure Active Directory.
   - Click on App registrations.
